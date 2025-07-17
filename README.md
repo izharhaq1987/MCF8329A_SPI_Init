@@ -36,7 +36,7 @@ GCC toolchain (if using Makefile)
 STM32 HAL drivers (pre-installed via CubeIDE)
 Serial monitor (e.g., Tera Term, PuTTY) for UART output
 
-### III. Build Instructions
+## III. Build Instructions
 # Option A: STM32CubeIDE
 Clone the repo or download the ZIP
 Open STM32CubeIDE → Import project
@@ -45,27 +45,27 @@ Click Build → then Debug/Run
 ## Option B: Command Line (Makefile)
 Clone the repo
 Navigate to the project folder
-### Run:
+# Run:
 make clean && make
 Flash using st-flash, openocd or your preferred tool
 
-#### IV. UART Debug Output (Optional)
+## IV. UART Debug Output (Optional)
 Connect TX pin of STM32 to your USB-to-UART converter
 Set baud rate to 115200
 Open serial monitor to view logs such as:
 MCF8329A INIT Reset complete
 MCF8329A INIT Writing 0x03A1 to REG_CTRL1
 
-##### V. Customizing SPI Commands
+## V. Customizing SPI Commands
 Edit mcf8329a_spi.c to change register addresses or values
 Reference the TI MCF8329A datasheet for available registers and command protocol
 
-### Requirements
+## Requirements
 - STM32 Nucleo or similar dev board  
 - TI MCF8329A EVM or custom BLDC driver board  
 - UART-to-USB interface for debug (optional)
 
-### Build & Flash
+## Build & Flash
 1. Clone the repo  
 2. Import into STM32CubeIDE or build with Makefile  
 3. Connect SPI and UART to target hardware  
