@@ -14,19 +14,18 @@ MCF8329A_SPI_Init/
 ├── Makefile or .ioc # Build configuration
 └── README.md # Project overview
 
-## SPI Write Timing Diagram
-
-This diagram illustrates how 0x02 (register) and 0x0304 (16-bit data) are transmitted over MOSI with respect to CS and SCLK lines.
-
-![SPI Write Timing](docs/mcf8329a_spi_write_timing.png)
-
-
 ## Features
 I. SPI-based register access to the MCF8329A  
 II. Initialization sequence based on TI datasheet  
 III. Optional UART debug messages for diagnostics  
 IV. Clean and portable C code for STM32, NXP, or other MCUs  
 V. Example register map included
+
+## SPI Write Timing Diagram
+
+This diagram illustrates how 0x02 (register) and 0x0304 (16-bit data) are transmitted over MOSI with respect to CS and SCLK lines.
+
+![SPI Write Timing](docs/mcf8329a_spi_write_timing.png)
 
 ## Getting Started
 This section will help you set up and run the firmware on your hardware for the first time.
