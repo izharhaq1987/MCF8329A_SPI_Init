@@ -59,7 +59,7 @@ Open a serial monitor (e.g., Tera Term or PuTTY) and observe output like:
 ![UART Debug Output](docs/uart_debug_output.png)
 
 ## V. Customizing SPI Commands
-Edit `mcf8329a_spi.c` to change register addresses or values.  
+Edit mcf8329a_spi.c to change register addresses or values.  
 Reference the TI MCF8329A datasheet for available registers and command protocol.
 
 ![Register Write Verification Flow](docs/Verifying_Register_Writes.png)
