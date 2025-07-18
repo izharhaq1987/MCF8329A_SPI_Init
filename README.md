@@ -17,6 +17,12 @@ This diagram illustrates how 0x02 (register) and 0x0304 (16-bit data) are transm
 
 ![SPI Write Timing](docs/mcf8329a_spi_write_timing.png)
 
+## MCF8329A Register Initialization Flow
+
+The diagram below outlines the full sequence of steps for bringing up the MCF8329A driver from power-up to operational state.
+
+![MCF8329A Register Flow](docs/mcf8329a_register_flow.png)
+
 ## Getting Started
 This section will help you set up and run the firmware on your hardware for the first time.
 # I. Hardware Requirements
@@ -53,8 +59,10 @@ Open a serial monitor (e.g., Tera Term or PuTTY) and observe output like:
 ![UART Debug Output](docs/uart_debug_output.png)
 
 ## V. Customizing SPI Commands
-Edit mcf8329a_spi.c to change register addresses or values
-Reference the TI MCF8329A datasheet for available registers and command protocol
+Edit `mcf8329a_spi.c` to change register addresses or values.  
+Reference the TI MCF8329A datasheet for available registers and command protocol.
+
+![Register Write Verification Flow](docs/Verifying_Register_Writes.png)
 
 ## Requirements
 - STM32 Nucleo or similar dev board  
