@@ -2,17 +2,7 @@
 A lightweight firmware example for initializing and communicating with the **TI MCF8329A BLDC motor driver** over SPI. Designed for STM32 or similar MCUs, this project demonstrates register setup, SPI communication routines, and UART-based debug output for testing and integration.
 
 ## Project Structure
-MCF8329A_SPI_Init/
-├── src/ # Firmware source files
-│ ├── mcf8329a_spi.c # SPI communication logic
-│ ├── mcf8329a_spi.h
-│ ├── main.c # Initialization and testing
-│ └── uart_debug.c # Optional debug over UART
-├── include/ # Header files
-├── docs/ # Diagrams, screenshots, PDFs
-├── examples/ # Sample register sequences
-├── Makefile or .ioc # Build configuration
-└── README.md # Project overview
+<pre lang="markdown"> <code>## Project Structure <code>MCF8329A_SPI_Init/ ├── src/ │ ├── mcf8329a_spi.c # SPI communication routines │ ├── mcf8329a_spi.h # Header for SPI logic │ ├── main.c # System init and demo testing │ └── uart_debug.c # UART-based debug output (optional) ├── include/ # Header files (unspecified content) ├── docs/ # Documentation assets (e.g., diagrams) ├── examples/ # Sample register writes / sequences ├── Makefile or .ioc # Build configuration (Make or CubeMX) └── README.md # Project documentation</code> </pre>
 
 ## Features
 I. SPI-based register access to the MCF8329A  
