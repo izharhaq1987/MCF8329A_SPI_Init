@@ -46,11 +46,11 @@ make clean && make
 Flash using st-flash, openocd or your preferred tool
 
 ## IV. UART Debug Output (Optional)
-Connect TX pin of STM32 to your USB-to-UART converter
-Set baud rate to 115200
-Open serial monitor to view logs such as:
-MCF8329A INIT Reset complete
-MCF8329A INIT Writing 0x03A1 to REG_CTRL1
+Connect TX pin of STM32 to your USB-to-UART converter  
+Set baud rate to 115200  
+Open a serial monitor (e.g., Tera Term or PuTTY) and observe output like:
+
+![UART Debug Output](docs/uart_debug_output.png)
 
 ## V. Customizing SPI Commands
 Edit mcf8329a_spi.c to change register addresses or values
