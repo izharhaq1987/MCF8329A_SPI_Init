@@ -23,6 +23,11 @@ The diagram below outlines the full sequence of steps for bringing up the MCF832
 
 ![MCF8329A Register Flow](docs/MCF8329A_REGISTER_FLOW.png)
 
+## MCF8329A Block Diagram
+The diagram below provides a simplified internal view of the MCF8329A device to help understand its control and communication architecture.
+
+![MCF8329A Block Diagram](docs/mcf8329a_block_diagram.png)
+
 ## Getting Started
 This section will help you set up and run the firmware on your hardware for the first time.
 ## I. Hardware Requirements
