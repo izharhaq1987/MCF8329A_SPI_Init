@@ -25,12 +25,17 @@ The diagram below outlines the full sequence of steps for bringing up the MCF832
 
 ## Getting Started
 This section will help you set up and run the firmware on your hardware for the first time.
-# I. Hardware Requirements
+## I. Hardware Requirements
 STM32 Nucleo or Blue Pill development board
 TI MCF8329A BLDC motor driver or evaluation board (EVM)
 USB-to-UART converter (optional, for debugging)
 SPI connection (MOSI, MISO, SCLK, CS)
 3.3V or 5V regulated power supply (depending on board spec)
+
+### Wiring Diagram:
+The following diagram shows SPI and UART wiring connections between the STM32 and the MCF8329A motor driver.
+
+![Wiring Diagram](docs/stm32_mcf8329a_wiring.png)
 
 ## II. Software Requirements
 STM32CubeIDE or STM32CubeMX
