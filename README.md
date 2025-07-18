@@ -21,7 +21,7 @@ This diagram illustrates how 0x02 (register) and 0x0304 (16-bit data) are transm
 
 The diagram below outlines the full sequence of steps for bringing up the MCF8329A driver from power-up to operational state.
 
-![MCF8329A Register Flow](docs/mcf8329a_register_flow.png)
+![MCF8329A Register Flow](docs/MCF8329A_REGISTER_FLOW.png)
 
 ## Getting Started
 This section will help you set up and run the firmware on your hardware for the first time.
